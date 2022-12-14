@@ -12,7 +12,7 @@
 
 // try using the print() function in a compiler https://www.programiz.com/python-programming/online-compiler/
 
-x = 0           //  int
+x = []           //  list
 y = 1           //  int, float, complex
 n = "python"    //  str
 b = True        //  bool
@@ -42,6 +42,15 @@ x=10
 y=20
 
 print("the value is " + (2x+y)/y)
+
+// we can use python to create list of names
+
+list_of_names = []
+new_name = input('Please enter your name: ')
+list_of_names.append(new_name)
+print("the updated list: " + lit_of_names)
+
+
 
 // when we are using python for data science, a lot of the time we are using APIs 
 // An API is an Application Programming Interface https://en.wikipedia.org/wiki/API
